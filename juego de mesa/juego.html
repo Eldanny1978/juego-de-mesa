@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Mesa Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-board">
+        <h1>Juego de Mesa Digital</h1>
+        <div id="player-turn">
+            <p>Turno de jugador: <span id="current-player">Jugador 1</span></p>
+        </div>
+        <div id="game-actions">
+            <button id="roll-dice">Tirar Dados</button>
+            <div id="dice-result">
+                <p>Resultado del dado: <span id="dice-value">0</span></p>
+            </div>
+            <button id="next-turn" disabled>Siguiente turno</button>
+        </div>
+        <div id="game-status">
+            <p id="message">¡Haz tu jugada!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
